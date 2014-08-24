@@ -1,0 +1,35 @@
+{
+  "name": "time-pikinator",
+  "version": "0.0.0",
+  "description": "React component for picking times",
+  "main": "index.js",
+  "scripts": {
+    "beefy": "http-server . -p 9000 & watchify demo.js -o demo-bundle.js --debug --verbose",
+    "test": "browserify  test/*.js | testlingify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kofno/time-pikinator"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "date",
+    "time"
+  ],
+  "author": "Ryan L. Bell",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^5.9.3",
+    "http-server": "^0.6.1",
+    "tap": "^0.4.12",
+    "testling": "^1.7.0",
+    "watchify": "^1.0.2"
+  },
+  "dependencies": {
+    "moment": "^2.8.2",
+    "react": "^0.11.1",
+    "twix": "^0.5.1",
+    "underscore": "^1.6.0"
+  }
+}

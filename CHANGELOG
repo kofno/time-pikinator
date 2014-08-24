@@ -1,0 +1,3 @@
+v0.1.0
+- Time input w/ datalist fallback
+- sets "invalid" class is time doesn't parse.
